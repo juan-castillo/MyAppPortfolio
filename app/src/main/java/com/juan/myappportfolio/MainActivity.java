@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     /** Displays a toast message in response to a button click */
     public void displayToast(View view) {
         Button b = (Button) view;
-        CharSequence text = "This button will launch the " + b.getText().toString() + " app!";
+        CharSequence text = "This button will launch my " + b.getText().toString() + " app!";
 
         Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
     }
